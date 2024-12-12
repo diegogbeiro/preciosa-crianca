@@ -5,14 +5,28 @@
     text-decoration: none;
 }
 
+@font-face {
+    font-family: 'poppins';
+    src: url();
+}
+
 body{
     background-color: #F4DECB;
 }
 
 header{
-
+    background-color: #F4DECB;
+    max-width: 100%;
+    min-height: 40px;
+    max-height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.logo{
-    
+
+
+a{
+    padding-right: 4px;
+    font-family:'poppins';
 }
