@@ -15,6 +15,11 @@
     src: url(../preciosa-crianca/font/PT_Serif/PTSerif-Regular.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'Montserrat Alternates';
+    src: url(../preciosa-crianca/font/Montserrat_Alternates/MontserratAlternates-Regular.ttf) format('truetype');
+}
+
 body{
     background-color: #F4DECB;
 }
@@ -78,6 +83,22 @@ p{
     margin-top: 4px;
     margin-bottom: 4px;
     position: relative;
+}
+
+aside{
+    width: 400px;
+    height: 240px;
+    background-color: #EB6E80;
+    border-radius: 12px;
+    margin: 12px;
+    padding: 12px;
+}
+aside > p {
+    font-family: 'Montserrat Alternates' ;
+    font-size: 12px;
+    text-align: left;
+    color: white;
+    
 }
 
 footer{    
