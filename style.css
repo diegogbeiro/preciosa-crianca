@@ -71,6 +71,15 @@ h1{
     text-align: center;
 }
 
+h2{
+    font-family: 'Lobster';
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+
 p{
     font-family: 'PT Serif';
     font-size: 20px;

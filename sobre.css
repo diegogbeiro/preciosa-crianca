@@ -4,3 +4,119 @@
     padding: 0;
     text-decoration: none;
 }
+
+@font-face {
+    font-family: 'Lobster';
+    src: url(../preciosa-crianca/font/Lobster/Lobster/Lobster-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'PT Serif';
+    src: url(../preciosa-crianca/font/PT_Serif/PTSerif-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat Alternates';
+    src: url(../preciosa-crianca/font/Montserrat_Alternates/MontserratAlternates-Regular.ttf) format('truetype');
+}
+
+body{
+    background-color: #F4DECB;
+}
+
+header{
+    background-color: #F4DECB;
+    max-width: 100%;
+    min-height: 40px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.link{
+    padding-right: 4px;
+    font-family: 'PT Serif';
+    font-size: 16px;
+    color: #EB6E80;
+    font-weight: bolder;
+}
+
+.link:hover{
+    color: #1FB58F;
+    font-weight: 900;
+    transition: .2s;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    margin-top: 12px;
+    min-width: 600px;
+    max-width: 1000px;
+    padding: 12px;
+    border-radius: 20px;
+
+    border-radius: 10px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 12px;
+
+}
+
+h1{
+    font-family: 'Lobster';
+    font-weight: 100;
+    font-size: 32px;
+    color: #EB6E80;
+    padding: 4px;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Lobster';
+    font-size: 40px;
+    color: #EB6E80;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+p{
+    font-family: 'PT Serif';
+    font-size: 20px;
+    font-weight: normal;
+    padding: 4px;
+    margin-top: 4px;
+}
+
+picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+
+footer{    
+    margin: 0 auto;
+    margin-top: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.autorais{
+    font-size: 12px; 
+    font-weight: bolder;       
+}
+
+
